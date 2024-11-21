@@ -1,12 +1,13 @@
 //
 //  OTT.h
-//  Client_ReactNative
+//  pilot-ios-sdk
 //
-//  Created by NguyenVanSao on 2/19/20.
-//  Copyright © 2020 Facebook. All rights reserved.
+//  Created by DinhPhuc on 23/01/2024.
 //
 
 #import <Foundation/Foundation.h>
+#import "SmMonitor.h"
+#import "SmCustomData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

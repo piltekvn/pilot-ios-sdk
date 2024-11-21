@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'pilot-ios-sdk'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Pilot SDK is MultiCDN for iOS project'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   s.source_files = 'include/*.h'
   s.public_header_files = 'include/*.h'
-  s.vendored_libraries = 'lib/libPilotCDN.a'
+  s.vendored_libraries = 'lib/libpilot-ios-sdk.a'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/include/**" }
   s.static_framework = true
 end
